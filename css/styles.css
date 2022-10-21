@@ -234,6 +234,10 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
 .mail,
 .tel {
   font-family: "Roboto";
