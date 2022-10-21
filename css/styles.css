@@ -1,0 +1,247 @@
+/* Основний колір #FFFFFF */
+/* Другорядний колір #FFFFFF */
+/* Колір тексту #757575 */
+/* Колір ссилок  #000000  #212121 */
+/* Колір маіл телефон #2196F3 #757575 */
+/* Button background logo #2196F3 */
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --btn-backgroung-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --studio-second-color: #000000;
+  --bg-color: #2f303a;
+}
+
+body {
+  font-family: "Roboto", Raleway, sans-serif;
+}
+.page {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+/*                HEADER             */
+.header {
+}
+.bg-color {
+  background: var(--bg-color);
+}
+.header-navigation {
+}
+.header-logo,
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.header-logo-part {
+  color: #000000;
+}
+
+.header-list {
+}
+.header-item {
+}
+.header-link,
+.footer-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header-contact {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+/*                HEADER             */
+
+/*                HERO               */
+.hero {
+  background: #2f303a;
+}
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+/*                HERO               */
+
+/*                SKILLS              */
+.skills {
+}
+.skills-title {
+}
+.hiden-title {
+  display: none;
+}
+.skills-list {
+}
+.skills-sub-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.skills-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*                SKILLS              */
+/*                WORKS               */
+.works {
+}
+.works-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.works-list {
+}
+.list {
+}
+.list-items {
+}
+.works-links {
+}
+/*                WORKS               */
+/*                GANG                */
+.gang {
+  background: #f5f4fa;
+}
+.gang-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+.gang-list {
+}
+.gang-items {
+}
+.gang-jpg {
+}
+.gang-subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.gang-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*                GANG                */
+/*                FOOTER              */
+.footer {
+}
+.footer-logo {
+}
+.logo-part {
+}
+.footer-logo-part {
+  color: #ffffff;
+}
+.footer-addres {
+}
+.footer-list {
+}
+.list {
+}
+.footer-items {
+}
+.footer-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.mail,
+.tel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/*                FOOTER              */
