@@ -283,6 +283,8 @@ address {
 .list {
 }
 .features-items {
+  background: var(--primary-white-color);
+  border: 1px solid #eeeeee;
 }
 .features-subtitle {
   font-weight: 700;
